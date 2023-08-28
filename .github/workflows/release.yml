@@ -23,7 +23,7 @@ jobs:
         run: npm install
 
       - name: Set Version
-        run: echo "VERSION=v1.0.1" >> $GITHUB_ENV
+        run: echo "VERSION=v1.0.2" >> $GITHUB_ENV
 
       - name: Check Existing Release
         id: check_release

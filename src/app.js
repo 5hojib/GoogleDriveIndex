@@ -1479,7 +1479,7 @@ function file_video(name, encoded_name, size, poster, url, mimeType, file_id, co
               <span class="sr-only"></span>
               </button>
               <div class="dropdown-menu">
-              <a class="dropdown-item" href="intent://${url}#Intent;type=video/mp4;end;">open with</a>
+              <a class="dropdown-item" href="intent:${url}#Intent;type=video/mp4;end;">open with</a>
               </div>
           </div>
           `+copyButton+copyFileBox+`
@@ -1603,7 +1603,7 @@ function file_audio(name, encoded_name, size, url, file_id, cookie_folder_id) {
               <span class="sr-only"></span>
               </button>
               <div class="dropdown-menu">
-              <a class="dropdown-item" href="intent://${url}#Intent;type=video/mp4;end;">Open with</a>
+              <a class="dropdown-item" href="intent:${url}#Intent;type=video/mp4;end;">Open with</a>
               </div>
           </div>
           `+copyButton+copyFileBox+`
